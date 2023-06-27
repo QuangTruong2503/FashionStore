@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../css/doAn.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Shop bán đồ thể thao nam</title>
+    <script>
+           $(document).ready(function(){
+        // jQuery Bo quan ao//
+        $(".title_boQuanAo").mousemove(function(){
+            $(".list_boQuanAo").show()
+        })
+        $(".title_boQuanAo").mouseout(function(){
+            $(".list_boQuanAo").hide()
+        })
+
+        // jQuery Giày
+        $(".title_giay").mousemove(function(){
+            $(".list_giay").show()
+        })
+        $(".title_giay").mouseout(function(){
+            $(".list_giay").hide()
+        })
+
+        // JQuery Áo khoác
+        $(".title_aoKhoac").mousemove(function(){
+            $(".list_aoKhoac").show()
+        })
+        $(".title_aoKhoac").mouseout(function(){
+            $(".list_aoKhoac").hide()
+        })
+
+        // jQuery Túi xách
+        $(".title_tuiXach").mousemove(function(){
+            $(".list_tuiXach").show()
+        })
+        $(".title_tuiXach").mouseout(function(){
+            $(".list_tuiXach").hide()
+        })
+    })
+    </script>
+</head>
+<body>
+    <!-- top menu -->
+    <div class="top_menu">
+      <!-- right -->
+        <div class="top_menu_right">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" href="../../../../html/thongTinChung/gioi_Thieu.html" >Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../../../../html/thongTinChung/troGiup.html" target="_self">Trợ giúp</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../../../../html/thongTinChung/taiKhoan.html" target="_self">Tài khoản</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="bi bi-instagram"></i> </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="bi bi-youtube"></i> </a>
+                </li>
+              </ul>
+        </div>
+        <!-- top menu left -->
+        <div class="top_menu_left">
+          <a href="../../../homeWeb.html"><img src="../../../../image/logo/logo-chat.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="main_menu">
+        <!-- Bộ quần áo -->
+        <div class="main_menu_2">
+          <div class="title_boQuanAo" ><a id="title" href="../../Ao_quan.html" target="_self">Áo&Quần</a>
+              <div class="list_boQuanAo hide_menu">
+                  <ul>
+                    <div id="left">
+                      <p>Câu lạc bộ</p>
+                      <li><a href="../../Cau-lac-bo/Manu.html" target="_self">Manchester United</a></li>
+                      <li><a href="../../Cau-lac-bo/Bayern.html" target="_self">Bayern Muchen</a></li>
+                      <li><a href="../../Cau-lac-bo/Juventus.html" target="_self">Juventus</a></li>
+                      <li><a href="../../Cau-lac-bo/RealMarid.html" target="_self">Real Marid</a></li>
+                    </div>
+                    <div id="right">
+                      <p>Đội tuyển</p>
+                      <li><a href="../Anh.html" target="_self">Anh</a></li>
+                      <li><a href="../BoDaoNha.html" target="_self">Bồ Đào Nha</a></li>
+                      <li><a href="../Phap.html" target="_self">Pháp</a></li>
+                      <li><a href="../Italia.html" target="_self">Ý</a></li>
+                    </div>
+                  </ul>
+              </div>
+          </div>
+        </div>
+        <!--    Giày  -->
+        <div class="main_menu_2">
+          <div class="title_giay" ><a id="title" href="../../../Giay/Giay.html" target="_self">Giày</a>
+              <div class="list_giay hide_menu width_menu">
+                  <ul>
+                      <li><a href="../../../Giay/adidas.html" target="_self">Adidas</a></li>
+                      <li><a href="../../../Giay/nike.html" target="_self">Nike</a></li>
+                      <li><a href="../../../Giay/puma.html" target="_self">Puma</a></li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+        <!-- Áo khoác -->
+        <div class="main_menu_2">
+          <div class="title_aoKhoac" ><a id="title" href="../../../Ao_Khoac/Ao_Khoac.html" target="_self">Áo Khoác</a>
+              <div class="list_aoKhoac hide_menu width_menu">
+                  <ul>
+                    <li><a href="../../../Ao_Khoac/Adidas.html" target="_self">Adidas</a></li>
+                    <li><a href="../../../Ao_Khoac/Nike.html" target="_self">Nike</a></li>
+                    <li><a href="../../../Ao_Khoac/Zara.html" target="_self">Zara</a></li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+        <!-- Túi xách -->
+        <div class="main_menu_2">
+          <div class="title_tuiXach" ><a id="title" href="../../../Tui_Xach/Tui_xach.html" target="_self">Túi xách</a>
+              <div class="list_tuiXach hide_menu width_menu">
+                  <ul>
+                    <li><a href="../../../Tui_Xach/adidas.html" target="_self">Adidas</a></li>
+                    <li><a href="../../../Tui_Xach/nike.html" target="_self">Nike</a></li>
+                    <li><a href="../../../Tui_Xach/supreme.html" target="_self">Supreme</a></li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Vùng bán sản phẩm -->
+    <div>
+        <!-- Chi tiet san pham -->
+        <div class="vungChiTiet canLe ">
+            <!-- vung chi tiet trai -->
+            <div class="vct_left col-md-4">
+                <img src="../../Ao_quan_img/Pháp/Phap_1.jpg" alt="">
+            </div>
+            <!-- Vung chi tiet phai -->
+            <div class="vct_right col-md-5">
+                <h4>BỘ PHÁP 1999 MỚI NHẤT HÀNG THÁI</h4>
+                <p>200.000 đ</p>
+                <div class="chonSize">
+                    <label class="chonSize_text" for="size">Chọn size áo:</label>
+                    <select class="form-control" id="size" name="sellist1">
+                    <option>L</option>
+                    <option>M</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                    </select>
+                </div>
+                <!-- nut them so lượng -->
+                <div class="quantity buttons_added">
+                    <label id="label_themSL" for="themSoLuong">Số lượng:</label>
+                    <input type="number" id="themSoLuong"   step="1" min="1" max="" name="quantity" value="1" title="SL" size="4" placeholder="" inputmode="numeric"> 
+                    <button type="submit" class="button_muaHang btn btn-outline-secondary">Mua hàng</button>
+                </div>
+            </div>
+        </div>
+        <!-- Vung mô tả -->
+        <div class="vungMoTa canLe">
+            <div id="moTa" class="col-md-4"><h4>MÔ TẢ</h4></div>
+            <p>QUẦN ÁO BÓNG ĐÁ - HÀNG NHẬP THÁI - CHẤT LƯỢNG CAO </p>
+            <p>- Chất liệu vải thun mè cao cấp nhất, chuẩn Thái Lan.</p>
+            <p>- Form ôm body rất đẹp và vừa vặn.</p>
+            <p>- Hàng chất lượng cao, thoáng mát, không nhăn, không xù lông.</p>
+            <p>- Mẫu áo thiết kế chuẩn form Player hiện đại và tinh tế. - HÌNH ẢNH CỦA SHOP ĐỀU TỰ CHỤP 100%</p>
+            <p>THÔNG TIN CHỌN SIZE ÁO - SIZE CHÂU ÂU</p>
+            <img src="../../Ao_quan_img/size-ao-bong-da.jpg" alt="">
+        </div>
+    </div>
+ 	<!-- Last place -->
+    <div class="background_black contain">
+      <a href="https://www.mozilla.org/en-US/"><img src="images/fireFox/moza_img.svg" alt=""></a>
+      <div class="bb_list">
+          <div class="list_width" id="company">
+              <ul>
+                  <p>Company</p>
+                  <li><a href="#">Mozilla Manifesto</a></li>
+                  <li><a href="#">Press Center</a></li>
+                  <li><a href="#">Corporate Blog</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Donate</a></li>
+              </ul>
+          </div>
+          <div class="list_width">
+              <ul>
+                  <p>Resources</p>
+                  <li><a href="#">Privacy Hub</a></li>
+                  <li><a href="#">Browser Comparison</a></li>
+                  <li><a href="#">Brand Standards</a></li>
+              </ul>
+          </div>
+          <div class="list_width">
+              <ul>
+                  <p> Support</p>
+                  <li><a href="#">Product Help</a></li>
+                  <li><a href="#">File a Bug</a></li>
+              </ul>
+          </div>
+          <div class="list_width">
+              <ul>
+                  <p>Developers</p>
+                  <li><a href="#">Developer Edition</a></li>
+                  <li><a href="#">Beta</a></li>
+                  <li><a href="#">Beta for Android</a></li>
+                  <li><a href="#">Nightly</a></li>
+                  <li><a href="#">Nightly for Android</a></li>
+                  <li><a href="#">Enterprise</a></li>
+                  <li><a href="#">Tools</a></li>
+              </ul>
+          </div>
+          <div class="list_width link_connect">
+              <div>
+                  <p>Follow Shop</p>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-tiktok"></i></a>
+                  <a href="#"><i class="bi bi-spotify"></i></a>
+              </div>
+              <div>
+                  <p>Follow Me</p>
+                  <a href="https://twitter.com/Tr40100401Quang" target="_blank" ><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.instagram.com/brando_2503/" target="_blank"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.youtube.com/channel/UCIJnAf2j34T9Pnr0uSzp8GA" target="_blank"><i class="bi bi-youtube"></i></a>
+              </div>
+          </div>
+      </div>
+      
+    </div>
